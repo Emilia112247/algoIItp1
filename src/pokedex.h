@@ -20,12 +20,12 @@ struct pokemon {
 	int resistencia;
 };
 
-struct pokedex;
 
 /**
  * Crea una nueva pokedex.
 */
 struct pokedex *pokedex_crear();
+
 
 /**
  * Agrega un pokemon a la pokedex.
